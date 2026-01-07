@@ -1,0 +1,81 @@
+# YOLOv3 Model Files
+# 용량이 큰 모델 파일은 GitHub Releases로 배포
+models/*.pt
+!models/.gitkeep
+
+# Video Files
+# 비디오 파일은 Git으로 관리하지 않음
+input_videos/*.mp4
+input_videos/*.avi
+input_videos/*.mov
+input_videos/*.mkv
+!input_videos/.gitkeep
+
+output_videos/*.mp4
+output_videos/*.avi
+output_videos/*.mov
+output_videos/*.mkv
+!output_videos/.gitkeep
+
+# YOLO Training/Inference Results
+runs/
+*.weights
+*.cfg
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Stubs
+stubs/
+
+# Personal upload guide (private)
+GITHUB_UPLOAD_GUIDE.md
