@@ -79,3 +79,9 @@ stubs/
 
 # Personal upload guide (private)
 GITHUB_UPLOAD_GUIDE.md
+
+# 데모 영상 예외 허용 (짧은 영상만 포함)
+!input_videos/demo.mp4
+!input_videos/sample.mp4
+!output_videos/demo_result.mp4
+!output_videos/sample_result.mp4
