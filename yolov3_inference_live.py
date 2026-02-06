@@ -58,7 +58,7 @@ def draw_legend(frame, team_colors: dict, gk_color: tuple, ball_color: tuple, re
 
 def main():
     # 1) 모델 불러오기
-    model = YOLO("models/best.pt")
+    model = YOLO("yolov3u.pt") 
     team_assigner = TeamAssigner()
 
     # 2) 카메라 열기
